@@ -22,6 +22,7 @@ export default function ImagesList() {
   return (
     <SimpleReactLightbox>
       <SRLWrapper>
+      
         <ImageList variant="quilted" cols={4} rowHeight={200}>
           {documents.map((item, index) => (
             <ImageListItem
